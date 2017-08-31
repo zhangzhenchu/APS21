@@ -1,0 +1,14 @@
+E:\develop\RS\Template\RSERP_Template\RSERP_Template\obj\Debug\ResolveAssemblyReference.cache
+E:\develop\RS\Template\RSERP_Template\RSERP_Template\obj\Debug\RSERP_Template.Properties.Resources.resources
+E:\develop\RS\Template\RSERP_Template\RSERP_Template\obj\Debug\RSERP_Template.csproj.GenerateResource.Cache
+E:\develop\RS\Template\RSERP_Template\RSERP_Template\bin\Debug\RSERP_Template.exe
+E:\develop\RS\Template\RSERP_Template\RSERP_Template\bin\Debug\RSERP_Template.pdb
+E:\develop\RS\Template\RSERP_Template\RSERP_Template\bin\Debug\RSERPLoginEx.dll
+E:\develop\RS\Template\RSERP_Template\RSERP_Template\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\develop\RS\Template\RSERP_Template\RSERP_Template\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\develop\RS\Template\RSERP_Template\RSERP_Template\bin\Debug\office.dll
+E:\develop\RS\Template\RSERP_Template\RSERP_Template\bin\Debug\RSERPLogin.dll
+E:\develop\RS\Template\RSERP_Template\RSERP_Template\obj\Debug\RSERP_Template.exe
+E:\develop\RS\Template\RSERP_Template\RSERP_Template\obj\Debug\RSERP_Template.pdb
+E:\develop\RS\RSERP\ST531\RSERP_ST531\obj\Debug\RSERP_Template.exe
+E:\develop\RS\RSERP\ST531\RSERP_ST531\obj\Debug\RSERP_Template.pdb

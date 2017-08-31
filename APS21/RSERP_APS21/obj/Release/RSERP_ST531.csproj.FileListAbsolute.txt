@@ -1,0 +1,15 @@
+E:\develop\RS\RSERP\ST531\RSERP_ST531\obj\Release\ResolveAssemblyReference.cache
+E:\develop\RS\RSERP\ST531\RSERP_ST531\obj\Release\RSERP_ST531.frmMessege.resources
+E:\develop\RS\RSERP\ST531\RSERP_ST531\obj\Release\RSERP_ST531.frmComprehensiveStockInfo.resources
+E:\develop\RS\RSERP\ST531\RSERP_ST531\obj\Release\RSERP_ST531.Properties.Resources.resources
+E:\develop\RS\RSERP\ST531\RSERP_ST531\obj\Release\RSERP_ST531.csproj.GenerateResource.Cache
+E:\develop\RS\RSERP\ST531\RSERP_ST531\bin\Release\RSERP_ST531.exe
+E:\develop\RS\RSERP\ST531\RSERP_ST531\bin\Release\RSERP_ST531.pdb
+E:\develop\RS\RSERP\ST531\RSERP_ST531\bin\Release\Microsoft.Office.Interop.Excel.dll
+E:\develop\RS\RSERP\ST531\RSERP_ST531\bin\Release\Microsoft.Vbe.Interop.dll
+E:\develop\RS\RSERP\ST531\RSERP_ST531\bin\Release\office.dll
+E:\develop\RS\RSERP\ST531\RSERP_ST531\obj\Release\RSERP_ST531.exe
+E:\develop\RS\RSERP\ST531\RSERP_ST531\obj\Release\RSERP_ST531.pdb
+E:\develop\RS\RSERP\ST531\RSERP_ST531\bin\Release\ComprehensiveStock.pdb
+E:\develop\RS\RSERP\ST531\RSERP_ST531\bin\Release\ComprehensiveStock.dll
+E:\develop\RS\RSERP\ST531\RSERP_ST531\bin\Release\RSERPLogin.dll

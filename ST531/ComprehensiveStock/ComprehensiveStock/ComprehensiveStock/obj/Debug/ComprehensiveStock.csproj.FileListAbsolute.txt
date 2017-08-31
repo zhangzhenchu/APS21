@@ -1,0 +1,5 @@
+E:\develop\RS\RSERP\ST531\ComprehensiveStock\ComprehensiveStock\ComprehensiveStock\bin\Debug\ComprehensiveStock.dll
+E:\develop\RS\RSERP\ST531\ComprehensiveStock\ComprehensiveStock\ComprehensiveStock\bin\Debug\ComprehensiveStock.pdb
+E:\develop\RS\RSERP\ST531\ComprehensiveStock\ComprehensiveStock\ComprehensiveStock\obj\Debug\ResolveAssemblyReference.cache
+E:\develop\RS\RSERP\ST531\ComprehensiveStock\ComprehensiveStock\ComprehensiveStock\obj\Debug\ComprehensiveStock.dll
+E:\develop\RS\RSERP\ST531\ComprehensiveStock\ComprehensiveStock\ComprehensiveStock\obj\Debug\ComprehensiveStock.pdb

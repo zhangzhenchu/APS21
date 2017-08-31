@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE5D86BB-7580-46E0-BDC5-F45A9E72BD1A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSERP_APS21</RootNamespace>
+    <AssemblyName>RSERP_APS21</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComprehensiveStock, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UTLoginEx, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmColorPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmColorPanel.Designer.cs">
+      <DependentUpon>frmColorPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDate.Designer.cs">
+      <DependentUpon>frmDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessege.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessege.designer.cs">
+      <DependentUpon>frmMessege.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAPSMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAPSMain.designer.cs">
+      <DependentUpon>frmAPSMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAPSQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAPSQuery.designer.cs">
+      <DependentUpon>frmAPSQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMOM_Moallocate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMOM_Moallocate.Designer.cs">
+      <DependentUpon>frmMOM_Moallocate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrderSplitQty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrderSplitQty.Designer.cs">
+      <DependentUpon>frmOrderSplitQty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OLEDBHelper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmColorPanel.resx">
+      <DependentUpon>frmColorPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDate.resx">
+      <DependentUpon>frmDate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessege.resx">
+      <DependentUpon>frmMessege.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAPSMain.resx">
+      <DependentUpon>frmAPSMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAPSQuery.resx">
+      <DependentUpon>frmAPSQuery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMOM_Moallocate.resx">
+      <DependentUpon>frmMOM_Moallocate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderSplitQty.resx">
+      <DependentUpon>frmOrderSplitQty.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputBox.resx">
+      <DependentUpon>InputBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
